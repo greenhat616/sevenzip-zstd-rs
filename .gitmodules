@@ -1,0 +1,3 @@
+[submodule "deps/7-Zip-zstd"]
+	path = sevenzip-zstd-sys/deps/7-Zip-zstd
+	url = https://github.com/mcmilk/7-Zip-zstd.git

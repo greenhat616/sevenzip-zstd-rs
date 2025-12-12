@@ -1,0 +1,3 @@
+[workspace]
+members = ["sevenzip-zstd","sevenzip-zstd-sys"]
+resolver = "3"
