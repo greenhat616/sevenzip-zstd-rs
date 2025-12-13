@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.gnu.org)",
+      "Bash(cargo metadata:*)"
+    ]
+  }
+}

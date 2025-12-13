@@ -1,7 +1,15 @@
 [package]
 name = "sevenzip-zstd"
-version = "0.1.0"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "Safe Rust bindings to 7-Zip-zstd compression library"
+readme = "../README.md"
+keywords = ["7zip", "zstd", "compression", "archive", "decompression"]
+categories = ["compression"]
 
 [dependencies]
 sevenzip-zstd-sys = { path = "../sevenzip-zstd-sys", version = "0.1.0" }

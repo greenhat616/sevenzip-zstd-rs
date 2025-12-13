@@ -1,7 +1,16 @@
 [package]
 name = "sevenzip-zstd-sys"
-version = "0.1.0"
-edition = "2024"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+repository.workspace = true
+license.workspace = true
+rust-version.workspace = true
+description = "Raw FFI bindings to 7-Zip-zstd compression library"
+readme = "README.md"
+keywords = ["7zip", "zstd", "compression", "archive", "ffi"]
+categories = ["compression", "api-bindings"]
+links = "7zip-zstd"
 
 [dependencies]
 libc = "0.2"
